@@ -7,7 +7,7 @@ st.title("Fill-in-the-Blanks Generator")
 text_input = st.text_area("Enter your text here:", height=250)
 
 # Input for the word interval (e.g., every nth eligible word)
-word_interval = st.number_input("Enter the interval (e.g., every nth eligible word to hide):", min_value=1, value=3, step=1)
+word_interval = st.number_input("Enter the interval (e.g., every nth eligible word to hide):", min_value=1, value=5, step=1)
 
 # Input for the minimum word length to be considered eligible
 min_word_length = st.number_input("Enter minimum word length to consider for hiding:", min_value=1, value=3, step=1)
