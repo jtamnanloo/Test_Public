@@ -4,7 +4,7 @@ import random
 st.title("Fill-in-the-Blanks Generator")
 
 # Input text area
-text_input = st.text_area("Enter your text here:", height=500)
+text_input = st.text_area("Enter your text here:", height=100)
 
 # Input for percentage
 percentage = st.number_input("Enter percentage of words to replace (0-100):", min_value=0, max_value=100, value=20, step=1)
